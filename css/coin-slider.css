@@ -1,0 +1,108 @@
+#coin-slider{
+	overflow:hidden;
+	background:url(images/loader.gif) 50% 50% no-repeat;
+	width:950px;
+	height:432px;
+	margin:0 auto;
+	position:relative;
+}
+#coin-slider img{display:none;}
+#coin-slider img.first{display:block;}
+.coin-slider{
+	position:relative;
+	margin:0px auto;
+	width:950px;
+	overflow:hidden;
+	height:432px;
+}
+
+
+.coin-slider a{
+	text-decoration:none;
+	display:inline-block;
+	outline:none;
+	border:none;
+}
+.controls {
+	height:432px;
+	width:950px;
+	background:url(images/bg-banner-bot.png) 0 bottom no-repeat;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:20;
+}
+.cs-buttons{
+	font-size:0px;
+	line-height:0;
+	position:absolute;
+	top:20px;
+	right:21px;
+	z-index:22;
+}
+
+.cs-buttons a{
+	margin-left:2px;
+	height:21px;
+	width:21px;
+	background:url(../images/bg-pagination.png) 0 0 no-repeat;
+	display:inline-block;
+	font-size:12px;
+	line-height:21px;
+	font-weight:bold;
+	text-align:center;
+	color:#fcfcfd;
+
+}
+.cs-buttons a:hover, .cs-buttons a.cs-active{background-position:left bottom;}
+.cs-prev, .cs-next{
+	display:none;
+}
+
+#coin-slider .banner {
+    height: 100%;
+    right: 1074px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 874px;
+    z-index: 19;
+}
+.banner-bot{
+	font-size:12px;
+	line-height:17px;
+	color:#777573;
+}
+.text-1 {
+	display:block;
+	color: #3d3c40;
+	font-size:55px;
+	line-height:1.2em;
+	letter-spacing:-2px;
+}
+.text-2 {
+	display:block;
+	color: #949298;
+	font-size:25px;
+	line-height:1.2em;
+	margin-top:-9px;
+	padding:0 0 0 0px;
+}
+
+#coin-slider .banner:first-child {
+    z-index: 20;
+}
+#coin-slider .banner strong {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+	font-weight:normal;
+    
+}
+#coin-slider .banner strong:first-child + strong {
+	z-index: 21;
+	font-weight:normal;
+}
+
+
+
