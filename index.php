@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title>Product Development | iPhone Development | Android Development | iPad Development | Web Development</title>
+<title>Product Pevelopment | iPhone Development | Android Development | iPad Development | Web Development</title>
 <?php include "scripts.php"; ?>
 </head>
 
